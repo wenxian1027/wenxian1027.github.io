@@ -1,0 +1,20 @@
+<model-viewer src="A2 final .glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" animation-name="exploded" camera-orbit="16.64deg 65.15deg 398.2m" field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-surface="4 0 4465 4475 4462 0.408 0.076 0.516" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mug Body</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-surface="1 0 127 128 129 0.552 0.395 0.053" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Coaster</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-surface="52 0 2 0 1 0.414 0.003 0.583" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Lid</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-surface="101 0 406 405 411 0.573 0.249 0.179" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Handle</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
